@@ -30,24 +30,24 @@ new_list = course_str.split(' - ')
 print(course_str)
 print(new_list)
   print(course)
-  mutable
+  #mutable
 list_1 = ['History' , 'Math' , 'Physics' , 'CompSci']
 list_2 = list_1
-#list_1[0] = 'Art'
-#print(list_1)
-#print(list_2)
+list_1[0] = 'Art'
+print(list_1)
+print(list_2)
 #immutable
-#tuple_1 = ('History', 'Math', 'Physics', 'CompSci')
-#tuple_2 = tuple_1
-#tuple_1[0] = 'Art'
-#print(tuple_1)
-#print(tuple_2)
+tuple_1 = ('History', 'Math', 'Physics', 'CompSci')
+tuple_2 = tuple_1
+tuple_1[0] = 'Art'
+print(tuple_1)
+print(tuple_2)
 
 #sets
 cs_courses = {'History', 'Math' , 'Physics', 'CompSci', 'Math'}
 art_courses = {'History', 'Math' , 'Art' , 'Design'}
-#print('Math' in cs_courses)
-#print(cs_courses.intersection(art_courses))
-#print(cs_courses.difference(art_courses))
+print('Math' in cs_courses)
+print(cs_courses.intersection(art_courses))
+print(cs_courses.difference(art_courses))
 print(cs_courses.union(art_courses))
-#print(cs_courses)
+print(cs_courses)
